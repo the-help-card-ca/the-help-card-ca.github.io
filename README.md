@@ -1,6 +1,6 @@
 # The Help Card
 
-Website for "The Help Card"
+Website for "The Help Card" - [Website](http://www.thehelpcard.ca)
 
 ## TODO
 
