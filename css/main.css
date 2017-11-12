@@ -3,6 +3,7 @@
 
 /* Comment: CSS Files - Icon File */
 @import url('./icon.css');
+@import url('./accessibility.css');
 
 body {
     font-family: 'Architects Daughter', Helvetica, sans-serif;
@@ -13,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #8F72E0;
+    background-color: #8980F5;
     height: auto;
     width: 100%;
     margin: 0 auto;
@@ -27,7 +28,8 @@ header img {
 }
 header h1 {
     margin-left: 0.4em;
-    color: #72D6E0;
+    text-shadow: 0.03em 0.03em #101A23;
+    color: #F0F0F0;
 }
 
 .help-card {
@@ -37,28 +39,34 @@ header h1 {
 .help-card h2, .clinic h2, .partnership h2 {
     font-size: 2em;
     text-transform: capitalize;
+    text-shadow: 0.03em 0.03em #F0F0F0;
 }
 .help-card a, .clinic a {
-    background-color: #72D6E0;
+    background-color: #5DD8DF;
+    text-shadow: 0.03em 0.03em #101A23;
     text-decoration: none;
-    color: #FFFFFF;
+    color:  #F0F0F0;
     border-radius: 0.2em;
     font-size: 2em;
     border: none;
     padding: 0.2em 0.4em;
     cursor: pointer;
-    border: 0.1em solid #72D6E0;
+    border: 0.1em solid #5DD8DF;
 }
 .help-card a:hover {
     background-color: #FFFFFF;
-    color: #72D6E0;
+    color: #5DD8DF;
 }
 
 .clinic {
     text-align: center;
     padding: 4em;
-    background-color: #AADF73;
-    color: #FFFFFF;
+    background-color: #A5DF7A;
+    color: #F0F0F0;
+    text-shadow: 0.05em 0.05em #101A23;
+}
+.clinic h2 {
+    text-shadow: 0.03em 0.03em #101A23;
 }
 .clinic h3 {
     font-size: 1.4em;
@@ -72,25 +80,27 @@ header h1 {
 }
 .clinic a {
     margin-top: 2em;
-    background-color: #8F72E0;
-    border: 0.1em solid #8F72E0;
+    background-color: #8980F5;
+    border: 0.1em solid #8980F5;
 }
 .clinic a:hover {
     background-color: #FFFFFF;
-    color: #8F72E0;
+    color: #8980F5;
 }
 
 .partnership {
     text-align: center;
     padding: 4em;
     background-color: #FFFFFF;
+    text-shadow: 0.03em 0.03em #F0F0F0;
 }
 
 footer {    
     text-align: center;
     padding: 0 1em;
-    background-color: #8F72E0;
-    color: #72D6E0;
+    background-color: #8980F5;
+    color: #F0F0F0;
+    text-shadow: 0.03em 0.03em #101A23;
 }
 footer div {
     display: -webkit-inline-box;
@@ -107,7 +117,7 @@ footer div:last-child {
 }
 footer .social-media a {
     text-decoration: none;
-    color: #72D6E0;
+    color: #F0F0F0;
 }
 
 @media (max-width: 649px) {

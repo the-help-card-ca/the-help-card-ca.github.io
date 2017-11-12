@@ -1,0 +1,51 @@
+/* Comment: Font - Link to Font */
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+/* Comment: CSS Files - Icon File */
+@import url('./accessibility.css');
+
+body {
+    font-family: 'Architects Daughter', Helvetica, sans-serif;
+
+    background-color: #FFFFFF;
+    text-align: center;
+
+    margin: 0 auto;
+    color: #101A23;
+    letter-spacing: 0.2em;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-not-found h1 {
+    font-size: 3em; 
+}
+.page-not-found p {
+    margin-bottom: 3em;
+}
+.page-not-found a {
+    margin-top: 2em;
+    background-color: #A5DF7A;
+    text-shadow: 0.03em 0.03em #101A23;
+    text-decoration: none;
+    color:  #F0F0F0;
+    border-radius: 0.2em;
+    font-size: 2em;
+    border: none;
+    padding: 0.2em 0.4em;
+    cursor: pointer;
+    border: 0.1em solid #A5DF7A;
+}
+.page-not-found a:hover {
+    background-color: #FFFFFF;
+    color: #A5DF7A;
+}
+
+@media (max-width: 649px) {
+    .page-not-found h1 {
+        font-size: 2em; 
+    }
+}

@@ -6,12 +6,35 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Comment: Bookmark Friendly -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+
+        <!-- Comment: This is resources for linking visuals -->
+        <meta property="og:url" content="http://www.thehelpcard.ca">
+        <meta property="og:title" content="The Help Card" />
+        <meta property="og:description" content="The Help Card helps Youth in Greater Victoria and the surrounding areas with finding health resources." />
+        <meta property="og:image" content="http://www.thehelpcard.ca/assets/favicon.png" />
 
         <!-- Comment: Title - What is shown in the browser tab -->
         <title>The Help Card</title>
+        <meta name="apple-mobile-web-app-title" content="The Help Card">
+
+        <!-- Comment: Description of The Help Card -->
+        <meta name="description" content="The Help Card helps Youth in Greater Victoria and the surrounding areas with finding health resources.">
 
         <!-- Comment: Favicon - What is shown in the browser tab-->
         <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+        <!--[if IE]><link rel="shortcut icon" href="./assets/favicon.png"><![endif]-->
+        <link rel="apple-touch-icon" href="./assets/favicon.png">
+        <link rel="apple-touch-icon" sizes="56x56" href="./assets/favicon.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon.png">
 
         <!-- Comment: Stylesheet - Where all the styles are applied -->
         <link rel="stylesheet" href="./css/main.css">
@@ -29,6 +52,10 @@
     </head>
     <!-- Comment: Body - Where all the HTML will go (This is displayed in the browser) -->
     <body>
+        <!-- Comment: Accessibility -->
+        <span class="sr-only">Main Page</span>
+        <a rel="noopener noreferrer" class="sr-only" href="#MainContent" alt="skip to content">Skip To Content</a>
+
         <!-- Comment: Header - The Navbar for the website -->
         <header>
             <!-- Comment: Favicon - Image for the header -->
@@ -37,10 +64,10 @@
         </header>
 
         <!-- Comment: The main section - this will be were the help card is linked -->
-        <section class="help-card">
+        <section id="MainContent" class="help-card">
             <h2>View the help card online!</h2>
             <!-- Comment: Link - Link to the help card (This will open in a new tab) -->
-            <a target="_blank" href="./assets/TheHelpCard.pdf">The Help Card!</a>
+            <a rel="noopener noreferrer" target="_blank" href="./assets/TheHelpCard.pdf">The Help Card!</a>
         </section>
 
         <!-- Comment: Clinic Information -->
@@ -57,7 +84,7 @@
             <p>#207 - 2537 Beacon	Avenue</p>
 
             <!-- Comment: Link to virtual poster -->
-            <a target="_blank" href="./assets/YouthClinicPoster.pdf">The Clinic Poster!</a>
+            <a rel="noopener noreferrer" target="_blank" href="./assets/YouthClinicPoster.pdf">The Clinic Poster!</a>
         </section>
 
         <!-- Comment: Partnership Section -->
@@ -82,9 +109,11 @@
             </div>
             <!-- Comment: Social Media -->
             <div class="social-media">
-                <a href="http://www.thehelpcard.ca"><i class="icon icon-twitter"></i></a>
-                <a href="http://www.thehelpcard.ca"><i class="icon icon-facebook"></i></a>
-                <a href="http://www.thehelpcard.ca"><i class="icon icon-instagram"></i></a>
+                <a rel="noopener noreferrer" href="https://www.facebook.com/peninsulayouthclinic/"><i class="icon icon-facebook"></i></a>
+
+                <!-- Comment: Hidden Content -->
+                <!-- <a rel="noopener noreferrer" href="http://www.thehelpcard.ca"><i class="icon icon-twitter"></i></a> -->
+                <!-- <a rel="noopener noreferrer" href="http://www.thehelpcard.ca"><i class="icon icon-instagram"></i></a> -->
             </div>
         </footer>
     </body>
