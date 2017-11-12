@@ -1,6 +1,6 @@
 # The Help Card
 
-Website for "The Help Card"
+Website for "The Help Card" - [Website](http://www.thehelpcard.ca)
 
 ## TODO
 
@@ -16,4 +16,3 @@ Website for "The Help Card"
 * David Abbott (Artist) Volunteers - Poster
 * Sara Kjernisted - Logo
 * Sara Kjernisted, Terra Creative and Volunteers - The Help Card
-
