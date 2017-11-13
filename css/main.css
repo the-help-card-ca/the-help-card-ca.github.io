@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 
 /* Comment: CSS Files - Icon File */
-@import url('./icon.css');
-@import url('./accessibility.css');
+@import url('http://www.thehelpcard.ca/css/icon.css');
+@import url('http://www.thehelpcard.ca/css/accessibility.css');
 
 /* Comment: Global Styles */
 body {
