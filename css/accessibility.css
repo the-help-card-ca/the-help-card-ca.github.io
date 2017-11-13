@@ -1,4 +1,4 @@
-/* SCREEN READER */
+/* Comment: Screen Reader */
 .sr-only {
     position: absolute;
     width: 1px;
@@ -9,3 +9,4 @@
     clip: rect(0,0,0,0);
     border: 0;
   }
+  

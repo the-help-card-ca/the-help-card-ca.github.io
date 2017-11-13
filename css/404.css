@@ -4,6 +4,7 @@
 /* Comment: CSS Files - Icon File */
 @import url('./accessibility.css');
 
+/* Comment: Global Styles */
 body {
     font-family: 'Architects Daughter', Helvetica, sans-serif;
 
@@ -20,6 +21,7 @@ body {
     align-items: center;
 }
 
+/* Comment: Page Not Found Styles */
 .page-not-found h1 {
     font-size: 3em; 
 }
@@ -44,6 +46,7 @@ body {
     color: #A5DF7A;
 }
 
+/* Comment: Mobile Friendly Styles */
 @media (max-width: 649px) {
     .page-not-found h1 {
         font-size: 2em; 

@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-    <!-- Comment: Head - Where all the information is kept.-->
+    <!-- Comment: Head - Where all the information is kept -->
     <head>
         <!-- Comment: Meta Data - Needed for the browser -->
         <meta charset="utf-8">
@@ -20,6 +20,7 @@
 
         <!-- Comment: Title - What is shown in the browser tab -->
         <title>The Help Card</title>
+        <!-- Comment: Title - What you see when you bookmark it on the mobile home screen -->
         <meta name="apple-mobile-web-app-title" content="The Help Card">
 
         <!-- Comment: Description of The Help Card -->
@@ -27,8 +28,9 @@
 
         <!-- Comment: Favicon - What is shown in the browser tab-->
         <link rel="icon" type="image/png" href="./assets/favicon.png">
-
         <!--[if IE]><link rel="shortcut icon" href="./assets/faviconWhite.png"><![endif]-->
+        
+        <!-- Comment: This is the favicon for when people bookmark it on their mobile devices home screen -->
         <link rel="apple-touch-icon" href="./assets/faviconWhite.png">
         <link rel="apple-touch-icon" sizes="56x56" href="./assets/faviconWhite.png">
         <link rel="apple-touch-icon" sizes="76x76" href="./assets/faviconWhite.png">
@@ -54,7 +56,7 @@
     <body>
         <!-- Comment: Accessibility -->
         <span class="sr-only">Main Page</span>
-        <a rel="noopener noreferrer" class="sr-only" href="#MainContent" alt="skip to content">Skip To Content</a>
+        <a rel="noopener noreferrer" class="sr-only" href="#MainContent">Skip To Content</a>
 
         <!-- Comment: Header - The Navbar for the website -->
         <header>
@@ -99,21 +101,22 @@
 
         <!-- Comment: Footer - This is where all the legal and social media stuff will be -->
         <footer>
-            <!-- Comment: Copyright notice -->
-            <div class="copyright">
-                <p>Copyright @ The Help Card</p>
-            </div>
             <!-- Comment: Last modified -->
             <div class="last-modified">
                 <p>November 2017</p>
             </div>
+            <!-- Comment: Copyright notice -->
+            <div class="copyright">
+                <p>Copyright @ The Help Card</p>
+            </div>
             <!-- Comment: Social Media -->
             <div class="social-media">
-                <a rel="noopener noreferrer" href="https://www.facebook.com/peninsulayouthclinic/"><i class="icon icon-facebook"></i></a>
+                <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/peninsulayouthclinic/"><i class="icon icon-facebook"><span class="sr-only">Facebook Link</span></i></a>
 
                 <!-- Comment: Hidden Content -->
-                <!-- <a rel="noopener noreferrer" href="http://www.thehelpcard.ca"><i class="icon icon-twitter"></i></a> -->
-                <!-- <a rel="noopener noreferrer" href="http://www.thehelpcard.ca"><i class="icon icon-instagram"></i></a> -->
+                <!-- Comment: Unhide when these social mesia profiles become available -->
+                <!-- <a rel="noopener noreferrer" target="_blank" href="http://www.thehelpcard.ca"><i class="icon icon-twitter"></i><span class="sr-only">Twitter Link</span></a> -->
+                <!-- <a rel="noopener noreferrer" target="_blank" href="http://www.thehelpcard.ca"><i class="icon icon-instagram"></i><span class="sr-only">Instagram Link</span></a> -->
             </div>
         </footer>
     </body>

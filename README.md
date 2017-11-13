@@ -13,6 +13,6 @@ Website for "The Help Card" - [Website](http://www.thehelpcard.ca)
 
 * [FlyteWizard](https://github.com/flytewizard) - Initial Website
 * Jen Harrison - Coordinator 
-* David Abbott (Artist) Volunteers - Poster
+* David Abbott (Artist), and Volunteers - Poster
 * Sara Kjernisted - Logo
-* Sara Kjernisted, Terra Creative and Volunteers - The Help Card
+* Sara Kjernisted, Terra Creative, and Volunteers - The Help Card

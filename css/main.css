@@ -5,6 +5,7 @@
 @import url('./icon.css');
 @import url('./accessibility.css');
 
+/* Comment: Global Styles */
 body {
     font-family: 'Architects Daughter', Helvetica, sans-serif;
     background-color: #FFFFFF;
@@ -13,6 +14,7 @@ body {
     letter-spacing: 0.2em;
 }
 
+/* Comment: Header Styles */
 header {
     background-color: #8980F5;
     height: auto;
@@ -32,6 +34,7 @@ header h1 {
     color: #F0F0F0;
 }
 
+/* Comment: Help Card Section Styles */
 .help-card {
     text-align: center;
     margin: 8em 0;
@@ -58,6 +61,7 @@ header h1 {
     color: #5DD8DF;
 }
 
+/* Comment: Clinic Styles */
 .clinic {
     text-align: center;
     padding: 4em;
@@ -88,6 +92,7 @@ header h1 {
     color: #8980F5;
 }
 
+/* Comment: Partnership Styles */
 .partnership {
     text-align: center;
     padding: 4em;
@@ -95,6 +100,7 @@ header h1 {
     text-shadow: 0.03em 0.03em #F0F0F0;
 }
 
+/* Comment: Footer Styles */
 footer {    
     text-align: center;
     padding: 0 1em;
@@ -120,12 +126,15 @@ footer .social-media a {
     color: #F0F0F0;
 }
 
+/* Comment: Mobile Friendly Styles */
 @media (max-width: 649px) {
+    /* Comment: Clinic Styles */
     .clinic a {
         font-size: 1.2em;
         padding: 0.6em 0.4em
     }
 
+    /* Comment: Footer Styles */
     footer div {
         display: block;
     }

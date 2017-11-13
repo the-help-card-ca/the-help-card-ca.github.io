@@ -1,3 +1,4 @@
+/* Comment: Font Styles for Icons */
 @font-face {
   font-family: 'helpcard';
   src: url('./../font/helpcard.eot?57845187');
@@ -9,6 +10,7 @@
   font-style: normal;
 }
 
+/* Comment: Icon Default */
 .icon {
   font-family: "helpcard";
   font-style: normal;
@@ -28,6 +30,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Comment: Icons */
 .icon-twitter:before { content: '\F090'; } /* '' */
 .icon-facebook:before { content: '\F091'; } /* '' */
 .icon-instagram:before { content: '\F092'; } /* '' */
